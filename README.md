@@ -371,7 +371,7 @@ This is functionally equivalent to calling `figure()` to create a new figure pri
 <p align="center">
    <strong>Example Data Plot</strong><br>
    <span>(two data spectra in dataset)</span><br>
-   <img src="Example Plot Images/ExampleDataPlot.png" width="400">
+   <img src="README FILES/ExampleDataPlot.png" width="400">
 </p>
 
 
@@ -398,7 +398,7 @@ handles = dataset.plotFit("NewFigure", "Yes");
 <p align="center">
    <strong>Example Peak Fit Plot</strong><br>
    <span>(one peak series, four individual peaks)</span><br>
-   <img src="Example Plot Images/ExampleFitPlot.png" width="400">
+   <img src="README FILES/ExampleFitPlot.png" width="400">
 </p>
 
 #### Fit Plot Handles
