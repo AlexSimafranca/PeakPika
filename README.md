@@ -284,7 +284,7 @@ dataset = dataset.optimizeFit();
 As the optimization algorithm runs, a plot will appear that tracks the root-mean-square deviation (RMSD, also called root-mean-square error) against the optimization cycle count. The RMSD is mathematically defined as 
 
 $$
-\mathrm{RMSD} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - y_0)^2}
+\mathrm{RMSD} = \sqrt{ \frac{1}{n} \sum_{i=1}^n (y_i - y_0)^2 }
 $$
 
 where $n$ is the number of data points in a given spectrum, $y_i$ is the Y data value of the fit at a given data point, and $y_0$ is the spectrum Y data value at the same point. This value is a statistical measure of how well the current peak fit matches the data spectrum and is expected to **decrease** as optimization progresses.
